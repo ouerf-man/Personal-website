@@ -73,9 +73,14 @@ body {
 
 
 .image-logo{
-    width: 280px;
+    width: 300px;
     height: 320px;
     box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image-logo .picture{
+    transform: translateX(-50%);
 }
 
 
@@ -144,7 +149,7 @@ body {
     from, to { border-color: transparent }
     50% { border-color: #74BBE4 }
 }
-.text-about-me h2 {
+.text-about-me .animation-text {
     white-space: nowrap;
     overflow: hidden;
     border-right: 1px solid #74BBE4;
@@ -155,7 +160,9 @@ body {
     animation: typing 10s steps(25, end) backwards .5s, blink-caret 1s step-end backwards 5s; */
     animation: typing 2s steps(30, end) 0s, blink-caret .5s step-end infinite;
 }
-
+.hello{
+    color: red;
+}
 
 canvas {
     display:block;
