@@ -135,6 +135,28 @@ body {
 
 /* /ipad*/
 
+/* animation text typing */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #74BBE4 }
+}
+.text-about-me h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #74BBE4;
+    box-sizing: border-box;
+    /* -webkit-animation-delay: 15s;
+    -webkit-animation: typing 10s steps(25, end), blink-caret 1s step-end infinite;
+    -moz-animation: typing 10s steps(25, end), blink-caret 1s step-end infinite;
+    animation: typing 10s steps(25, end) backwards .5s, blink-caret 1s step-end backwards 5s; */
+    animation: typing 2s steps(30, end) 0s, blink-caret .5s step-end infinite;
+}
+
+
 canvas {
     display:block;
     margin: 0 auto;
