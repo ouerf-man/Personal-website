@@ -485,6 +485,38 @@ ul.icons li a:hover, ul.icons li span:hover {
     }
 }
 
+.footer-content{
+    padding: 5% 5% 1% 5%;
+}
+
+#map{
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image:
+            -webkit-gradient(linear, 0 0, 0 100%, from(yellow), to(red)) 1 100%;
+    -webkit-border-image:
+            -webkit-linear-gradient(yellow, red) 1 100%;
+    -moz-border-image:
+            -moz-linear-gradient(yellow, red) 1 100%;
+    -o-border-image:
+            -o-linear-gradient(yellow, red) 1 100%;
+    border-image:
+            linear-gradient(to bottom, yellow, red) 1 100%;
+    margin-left: 15%;
+    width: 400px;
+    height: 340px;
+    -webkit-border-image:
+            -webkit-gradient(linear, 0 100%, 0 0, from(red), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+            -webkit-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+            -moz-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+            -o-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+            linear-gradient(to top, red, rgba(0, 0, 0, 0)) 1 100%;
+}
+
 
 
 /*----------------------------------------------*
