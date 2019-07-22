@@ -160,12 +160,10 @@ body {
     animation: typing 10s steps(25, end) backwards .5s, blink-caret 1s step-end backwards 5s; */
     animation: typing 2s steps(30, end) 0s, blink-caret .5s step-end infinite;
 }
-.hello{
-    color: red;
-}
+
 
 canvas {
-    display:block;
+    display: block;
     margin: 0 auto;
     opacity: .4;
     width: 100%;
@@ -173,9 +171,102 @@ canvas {
     padding: 0 3%;
     box-sizing: border-box;
 }
+/*
+|************************|
+**2) Experience
+|************************|
+ */
 
+/*
+** timeline
+ */
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color:  #004C8C;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+}
 
+.how-it-works.row .col-2 {
+    align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid  #004C8C;
+    z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.how-it-works.row .col-2.full:nth-of-type(even)::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.full:nth-of-type(odd)::after {
+    height: 100%;
+    left: 50%;
+}
+.how-it-works.row .col-2.top:nth-of-type(odd)::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+.how-it-works.row .col-2.top:nth-of-type(even)::after {
+    height: 50%;
+    left: calc(50% - 3px);
+    top: 0;
+}
 
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+.timeline hr {
+    border-top: 3px solid  #004C8C;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid  #004C8C;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+.experience{
+    padding: 8% 0;
+}
+
+.experience .container h1 {
+    text-align: center;
+    margin-bottom: 10%!important;
+}
 /*----------------------------------------------*
 CHART
 *-----------------------------------------------*/
