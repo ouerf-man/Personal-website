@@ -485,7 +485,88 @@ ul.icons li a:hover, ul.icons li span:hover {
     }
 }
 
+.footer-content{
+    padding: 9% 5% 1% 5%;
+}
 
+#map{
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image:
+            -webkit-gradient(linear, 0 0, 0 100%, from(yellow), to(red)) 1 100%;
+    -webkit-border-image:
+            -webkit-linear-gradient(yellow, red) 1 100%;
+    -moz-border-image:
+            -moz-linear-gradient(yellow, red) 1 100%;
+    -o-border-image:
+            -o-linear-gradient(yellow, red) 1 100%;
+    border-image:
+            linear-gradient(to bottom, yellow, red) 1 100%;
+    width: 400px;
+    height: 340px;
+    -webkit-border-image:
+            -webkit-gradient(linear, 0 100%, 0 0, from(red), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+            -webkit-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+            -moz-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+            -o-linear-gradient(bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+            linear-gradient(to top, red, rgba(0, 0, 0, 0)) 1 100%;
+}
+@media (min-width: 992px) {
+    #map{
+        margin-left: 15%;
+    }
+}
+/*contact*/
+
+.hero-info h2 {
+    margin-bottom: 30px;
+
+}
+
+.hero-info ul {
+    list-style: none;
+}
+
+.hero-info ul li {
+    font-size: 20px;
+    color: #F1F2F6;
+    margin-bottom: 15px;
+}
+
+.hero-info ul li span{
+    font-size: 24px;
+}
+
+
+.hero-info ul li span {
+    color: rgba(0, 0, 0, .6);
+    display: inline-block;
+    min-width: 150px;
+}
+
+.hero-info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.hero-info{
+    text-align: start;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .hero-info ul li {
+        font-size: 15px;
+    }
+
+    .hero-info ul li span{
+        font-size: 19px;
+    }
+}
 
 /*----------------------------------------------*
 CHART
