@@ -18,5 +18,6 @@ function changeBorderStyleNav() {
 
 
 $(function () {
+    $(".text-about-me h2").addClass("animation-text"); // text animation in the header will starts only if the dom is ready
     changeBorderStyleNav();
 })
