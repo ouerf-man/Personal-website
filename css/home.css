@@ -13,7 +13,7 @@ Setting up CSS
     font-family: 'Source Sans Pro', sans-serif;
 }
 body {
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #E4E4E4;
@@ -37,7 +37,7 @@ body {
     }
 
     .navbar-nav{
-        margin-left: 80%;
+        margin-left: 70%;
     }
 
     .nav-item{
@@ -78,11 +78,6 @@ body {
     box-sizing: border-box;
     overflow: hidden;
 }
-
-.image-logo .picture{
-    transform: translateX(-50%);
-}
-
 
 .text-about-me{
     font-size: 16px;
@@ -267,10 +262,109 @@ canvas {
     text-align: center;
     margin-bottom: 10%!important;
 }
+/*
+|************************|
+**3) SKILLS
+|************************|
+ */
+/*----------------------------------------------------
+ 7.	Technical Skills Style
+------------------------------------------------------*/
+.addspace {
+    height:60px;
+    background:#eeeeee;
+}
+.technical {
+    background:#eeeeee;
+    color:#474d5d;
+}
+.technical .container {
+    padding-top:85px;
+    padding-bottom:69px;
+}
+.technical .heading p {
+    padding-bottom:41px;
+}
+.technical p {
+    color:#474d5d;
+}
+.technical h2 {
+    text-align: center;
+}
+.technical h4{
+    margin-bottom: 30%;
+    margin-top: 10%;
+}
+.technical .skillsArea {
+    padding:0px;
+}
+.technical .skills {
+    margin:0 auto;
+    margin-bottom:23px;
+    text-align:center;
+    padding:0px;
+    float:none;
+}
+.technical .skills p {
+    color:#84868d;
+    font-size:13px;
+    line-height:18px;
+    text-align:center;
+}
+.technical .skills img {
+    margin:0 auto;
+    margin-bottom:33px;
+    width:100%;
+    max-width:152px;
+}
+.technical .skills h4 {
+    font-weight:700;
+    text-transform:uppercase;
+}
+.skilBg {
+    background:url(../images/skills.png) no-repeat 0 0;
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 152px;
+    height: 152px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.percent {
+    display: inline-block;
+    font-size:21px;
+    color:#474d5d;
+    line-height: 152px;
+    z-index: 2;
+}
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+}
+.angular {
+    margin-top: 100px;
+}
+.angular .chart {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+.technical .left{
+    margin-left: 15%;
+}
+}
 
 /*
 |************************|
-**3) Footer
+**4) Footer
 |************************|
  */
 
@@ -288,7 +382,7 @@ canvas {
         and a negative margin (to move everything up a bit).
     */
 
-    margin-top: 0px;
+    margin-top: 10%;
     padding: calc(460px + 6em) 0 10em 0;
     position: relative;
     text-align: center;
@@ -566,20 +660,25 @@ ul.icons li a:hover, ul.icons li span:hover {
     .hero-info ul li span{
         font-size: 19px;
     }
+
+    #footer{
+        margin-top: 10%;
+    }
 }
+
 
 /*----------------------------------------------*
 CHART
 *-----------------------------------------------*/
-.chart-darkBlue-bg{background-color: #004C8C;}
-.chart-blue-bg{background-color: #056BB3}
-.chart-skyBlue-bg{background-color: #2682C4}
-.chart-lightBlue-bg{background-color: #74BBE4}
-.chart-light-bg{background-color: #F1F2F6;}
+.chart-darkBlue-bg{background-color: #004C8C;!important}
+.chart-blue-bg{background-color: #056BB3!important}
+.chart-skyBlue-bg{background-color: #2682C4!important}
+.chart-lightBlue-bg{background-color: #74BBE4!important}
+.chart-light-bg{background-color: #F1F2F6!important;}
 
 
-.chart-color-darkBlue{color:  #004C8C;}
-.chart-color-blue{color: #056BB3}
-.chart-color-skyBlue{color: #2682C4;}
-.chart-color-lightBlue{color: #74BBE4;}
-.chart-color-light{color: #F1F2F6;}
+.chart-color-darkBlue{color:  #004C8C!important;}
+.chart-color-blue{color: #056BB3!important}
+.chart-color-skyBlue{color: #2682C4!important;}
+.chart-color-lightBlue{color: #74BBE4!important;}
+.chart-color-light{color: #F1F2F6!important;}
