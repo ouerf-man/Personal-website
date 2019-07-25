@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Portfolio</title>
+
+    <!--Biblio Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
+    <!--JQUERY-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300'
+          rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg  chart-color-blue">
+    <a class="navbar-brand chart-color-blue" href="#">Salem Gharbi</a>
+
+    <i class="fa fa-align-right navbar-toggler chart-color-blue
+" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+       aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation"></i>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link chart-color-blue active" href="index.html">CV
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link chart-color-blue" href="portfolio.html">Portfolio
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link chart-color-blue" href="#">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<!--/.Navbar -->
+<!--header-->
+<div class="header">
+    <div class="inside">
+        <h1 class="display-3" id="typer"></h1>
+    </div>
+</div>
+<!--/header-->
+<!--Portfolio-->
+<section id="portfolio" class="page-section section appear clearfix secPad chart-light-bg">
+    <!--<canvas id='lissajous-canvas' width=500 height=300></canvas>-->
+    <div class="container">
+
+
+
+        <div class="row">
+
+            <div class="col-md-12">
+                    <div class="portfolio-items isotopeWrapper clearfix" id="3">
+                        <div class="row">
+                            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 isotopeItem webdesign">
+                                <div class="portfolio-item">
+                                    <img src="res/projet111.png" alt=""/>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a data-toggle="modal" data-target="#modalCart1" class="fancybox">
+                                                <h5>Carte développement pour un système Smart
+                                                    Watch/SmartPhone</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="res/projet222.png" alt=""/>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a data-toggle="modal" data-target="#modalCart2" class="fancybox">
+                                                <h5>Carte du contrôle et supervision d’un Robot + Carte
+                                                    d’interfaçage avec Driver moteur Brushless </h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="res/projet333.png" alt=""/>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a data-toggle="modal" data-target="#modalCart3" class="fancybox">
+                                                <h5>Système de serrure intelligent </h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                        <div class="row">
+                            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 isotopeItem left">
+                                <div class="portfolio-item">
+                                    <img src="res/projet444.png" alt=""/>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a data-toggle="modal" data-target="#modalCart4" class="fancybox">
+                                                <h5>Système sans fil de supervisons d’état de batterie (Carte autonome)
+                                                </h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 isotopeItem ">
+                                <div class="portfolio-item">
+                                    <img src="res/projet555.png" alt=""/>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a data-toggle="modal" data-target="#modalCart5" class="fancybox">
+                                                <h5>Routage d’une carte High speed USB3.0 (HUB SUB) selon spécification
+                                                    client </h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Modal: modalCart -->
+<div class="modal fade" id="modalCart1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title chart-color-blue" id="myModalLabel">Carte développement pour un système Smart
+                    Watch/SmartPhone (Projet Actuel) </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet11.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            Ce projet consiste à faire la conception d’un prototype pour une
+                            carte de développement pour le système d’un smart
+                            Watch/Smartphone à base d’un système en module Cortex A7,
+                            1.094GHz.La carte développée s’agit d’une carte fille qui contient
+                            plusieurs types des capteurs : accéléromètre, gyroscope, boussole
+                            digitale, détecteur d’empreinte digitale, NFC pour paiement, capteur
+                            de fréquence cardiaque, capteur de pression , capteur de proximité
+                            et geste , LTE Cat M1/NB IOT et aussi un MIPI camera 8 MP avec
+                            système OIS, un MIPI display OLED résolution 400X400 RGB. Le
+                            système audio est composé d’un Duel micro haut-parleur avec effet
+                            stéréo et aussi un Mems Microphone.
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Block Diagramme et architecture système (Terminé)</li>
+                            <li class="list-group-item">Choix des composants (Terminé)</li>
+                            <li class="list-group-item">Implémentation sur Altium Designer (Terminé)</li>
+                            <li class="list-group-item">Vérification et validation de l’architecture finale (90%
+                                Terminé)
+                            </li>
+                            <li class="list-group-item">Placement des composants et Routage de la carte (Pas encore)
+                            </li>
+                            <li class="list-group-item">Débogage et validation de fonctionnalité (Pas encore)</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du
+                            système conçu et aussi les différents protocoles de communications
+                            utilisés.
+                        </p>
+                        <img src="res/projet1.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalCart2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title chart-color-blue" id="myModalLabel">Carte du contrôle et supervision d’un Robot +
+                    Carte
+                    d’interfaçage avec Driver moteur Brushless </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet22.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            <span class="display-5">Projet 1 </span> : Ce projet consiste à faire la conception d'une
+                            carte 4
+                            couches à base de microcontrôleur STM32F407 et aussi un module
+                            Ethernet EtherCat (interfaçage avec mini PC) pour le contrôle de
+                            luminosité du système d'éclairage du robot, les moteur du contrôle
+                            du système d’éclairage, supervision des voltages d'entrées et la
+                            température du système.
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Modification de l’ancienne architecture du prototype 1</li>
+                            <li class="list-group-item">Choix des composants</li>
+                            <li class="list-group-item">Implémentation sur Altium Designer</li>
+                            <li class="list-group-item">Routage de la carte</li>
+                            <li class="list-group-item">Suivi industrialisation
+                            </li>
+                            <li class="list-group-item">Test et débogage</li>
+                            <li class="list-group-item">Test des moteurs Brushless avec Script Python</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du
+                            système conçu.
+                            La carte ci-dessous représente le prototype 2.0 avant
+                            l’implémentation finale de l’EtherCat sur la Carte finale. (Prototype
+                            du test)
+                        </p>
+                        <img src="res/projet2.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet22222.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            <span class="display-5">Projet 2 </span> : Conception d'une carte 4 couches pour communiquer
+                            avec
+                            le Servo-Driver SBL2360 , cette carte est basée sur le microcontrôleur
+                            STM32F407, la carte utilise différents protocoles de communications
+                            CAN , RS232 et RS485 , plus l'intégration du module Ethernet
+                            EtherCat pour communiquer en temps réel avec l'interface mini PC
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Choix des composants</li>
+                            <li class="list-group-item">Implémentation sur Altium Designer</li>
+                            <li class="list-group-item">Routage de la carte</li>
+                            <li class="list-group-item">Suivi industrialisation
+                            </li>
+                            <li class="list-group-item">Test et débogage</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du
+                            système conçu.
+                        </p>
+                        <img src="res/projet2222.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalCart3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title chart-color-blue" id="myModalLabel">Système de serrure intelligent </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet33.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            Conception d'un système de serrure intelligent autonome lié à un smartphone. Ce système est
+                            basé sur un module Bluetooth ARM cortex (BLE) pour les applications Low-power et un système
+                            de management de batterie pour superviser l'état de batterie.
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Réalisation architecture système</li>
+                            <li class="list-group-item">Choix des composants</li>
+                            <li class="list-group-item"> Routage de la carte</li>
+                            <li class="list-group-item">Suivi industrialisation</li>
+                            <li class="list-group-item">Test et débogage</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du système conçu.
+                        </p>
+                        <img src="res/projet3.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalCart4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title chart-color-blue" id="myModalLabel">Système sans fil de supervisons d’état de
+                    batterie (Carte autonome)
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet44.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            Ce projet consiste à concevoir une carte électronique ayant comme rôle d’alimenter des
+                            diodes LED d’éclairage en assurant une gestion de la batterie en interne selon la
+                            description de client. Supervisons de l'état de batterie, plus l'intégration d'un driver
+                            diodes LED et un capacitive TouchS-ensor selon le besoin du client. Ce système contient un
+                            BMS (circuit de charge et Fuel de Gauge) et basé sur MSP430 Low power MCU.
+
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Implémentation sur Altium Designer (Terminé)</li>
+                            <li class="list-group-item">Création de bibliothèque</li>
+                            <li class="list-group-item">Placement des composants
+                            </li>
+                            <li class="list-group-item">Routage PCB</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du
+                            système conçu
+                        </p>
+                        <img src="res/projet4.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalCart5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <h4 class="modal-title chart-color-blue" id="myModalLabel">Routage d’une carte High speed USB3.0 (HUB
+                    SUB) selon spécification client </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+                <div class="picture">
+                    <img src="res/projet55.png" alt="" width="100%" height="auto">
+                </div>
+                <hr>
+                <div class="project-description">
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Description</h5>
+                        <hr>
+                        <p>
+                            Ce projet consiste à faire le Routage d’un HUB USB High speed USB3.0 ,90 Ohm impédance et
+                            faire le placement des composants selon les spécifications du client.
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Taches effectuées</h5>
+                        <hr>
+                        <p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Implémentation du circuit sur Altium Designer</li>
+                            <li class="list-group-item">Placement des composants</li>
+                            <li class="list-group-item">Calcule d’impédance pour les pins différentiels (PCB Saturn)
+                                selon le Stackup choisi par le client/Fabricant.
+                            </li>
+                            <li class="list-group-item">Routage de la Carte
+                            </li>
+
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-parts">
+                        <hr>
+                        <h5 class="chart-color-lightBlue">Block Diagramme
+                        </h5>
+                        <hr>
+                        <p>
+                            Le Block Diagramme ci-dessous représente les différentes parties du
+                            système conçu
+                        </p>
+                        <img src="res/projet5.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal: modalCart -->
+
+
+
+<div id="footer">
+    <div class="container 75%">
+        <h2>Contact</h2>
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="hero-info">
+                        <h2>Informations générale</h2>
+                        <ul>
+                            <li><span><i class="far fa-calendar-alt"></i></span>26/07/1991</li>
+                            <li><span><i class="fas fa-phone"></i></span>+216 56 702 082</li>
+                            <li><span><i class="fas fa-envelope"></i></span>gharbi.salem.ingenieur@gmail.com</li>
+                            <li><span><i class="fas fa-map-marker-alt   "></i></span>Cité Olympique, tunis , Tunisia</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div id="map">
+                        <iframe width="100%" height="100%"
+                                src="https://maps.google.com/maps?width=400&amp;height=340&amp;hl=en&amp;coord=36.837339, 10.193308&amp;q=cit%C3%A9%20olympique+()&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                                href="https://www.maps.ie/map-my-route/">Map a route</a></iframe>
+
+                    </div>
+                    <br/></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script src="js/jquery.typer.js"></script>
+<script>
+    var win = $(window),
+        foo = $('#typer');
+
+    foo.typer(['PORTFOLIO']);
+
+    // unneeded...
+    win.resize(function(){
+        var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
+
+        foo.css({
+            fontSize: fontSize * .8 + 'px'
+        });
+    }).resize();
+</script>
+<script src="js/electrons.js"></script>
+<script src="js/cloud.js"></script>
+<script src="js/home.js"></script>
+</html>

@@ -90,6 +90,26 @@ body {
     font-size: 80px!important;
 }
 /* PHONES*/
+@media (max-width: 552px) {
+    .text-about-me .animation-text{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 486px) {
+    .text-about-me .animation-text{
+        font-size: 22px;
+    }
+}@media (max-width: 400px) {
+    .text-about-me .animation-text{
+        font-size: 19px;
+    }
+
+.text-about-me{
+    font-size: 12px!important;
+}
+}
+
 @media only screen and (max-width: 767px) {
     .image-logo{
         width: 180px;
@@ -262,6 +282,13 @@ canvas {
     text-align: center;
     margin-bottom: 10%!important;
 }
+
+@media screen and (max-width: 480px) {
+
+    h3 {
+        font-size: 22px !important;
+    }
+}
 /*
 |************************|
 **3) SKILLS
@@ -321,7 +348,7 @@ canvas {
     font-weight:700;
     text-transform:uppercase;
 }
-.skilBg {
+.skillBg {
     background:url(../images/skills.png) no-repeat 0 0;
 }
 .chart {
@@ -651,7 +678,10 @@ ul.icons li a:hover, ul.icons li span:hover {
 }
 
 @media only screen and (max-width: 767px) {
-
+    #map{
+        width: 350px;
+        height: 290px;
+    }
 
     .hero-info ul li {
         font-size: 15px;
@@ -666,6 +696,14 @@ ul.icons li a:hover, ul.icons li span:hover {
     }
 }
 
+@media only screen and (max-width: 780px){
+    #map{
+        width: 300px;
+        height: 240px;
+    }
+
+
+}
 
 /*----------------------------------------------*
 CHART
