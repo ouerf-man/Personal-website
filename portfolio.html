@@ -60,7 +60,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link chart-color-blue" href="#">Contact</a>
+                <a class="nav-link chart-color-blue" href="contact.html">Contact</a>
             </li>
         </ul>
 
@@ -596,19 +596,22 @@
 </body>
 <script src="js/jquery.typer.js"></script>
 <script>
-    var win = $(window),
-        foo = $('#typer');
+    $(function () {
+        var win = $(window),
+            foo = $('#typer');
 
-    foo.typer(['PORTFOLIO']);
+        foo.typer(['PORTFOLIO']);
 
-    // unneeded...
-    win.resize(function(){
-        var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
+        // unneeded...
+        win.resize(function(){
+            var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
 
-        foo.css({
-            fontSize: fontSize * .8 + 'px'
-        });
-    }).resize();
+            foo.css({
+                fontSize: fontSize * .8 + 'px'
+            });
+        }).resize();
+    })
+
 </script>
 <script src="js/electrons.js"></script>
 <script src="js/cloud.js"></script>
