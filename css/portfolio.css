@@ -57,8 +57,13 @@ body {
     padding-top: 5%;
 }
 
-#portfolio img {
+#portfolio .portfolio-item img {
     width: 100%;
+    height: 100%;
+}
+#portfolio .portfolio-item  {
+    overflow: hidden;
+    height: 240px;
 }
 
 #portfolio article p {
@@ -160,7 +165,7 @@ nav#filter a {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .portfolio-item .portfolio-desc .folio-info p {
@@ -178,8 +183,34 @@ nav#filter a {
 
 
 
+/*
+|************************|
+**3) Modal
+|************************|
+ */
 
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 1000px;
 
+    }
+}
+
+.picture{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.project-description {
+    padding: 0 5%;
+}
+
+.project-parts{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
 /*----------------------------------------------*
 CHART
 *-----------------------------------------------*/
