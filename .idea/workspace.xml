@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b996e2d7-e37d-41e0-a804-feddbadaef7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/electrons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.typer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/portfolio_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet2222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet22222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet444.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/projet555.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="336">
               <caret line="506" column="14" selection-start-line="506" selection-start-column="14" selection-end-line="506" selection-end-column="14" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
@@ -55,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="668" selection-start-line="667" selection-end-line="668" />
+              <caret line="706" selection-start-line="705" selection-start-column="1" selection-end-line="706" />
             </state>
           </provider>
         </entry>
@@ -99,26 +124,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/js/easyPieChart.min.js" />
-        <option value="$PROJECT_DIR$/js/piechart.js" />
-        <option value="$PROJECT_DIR$/js/home.js" />
-        <option value="$PROJECT_DIR$/js/electrons.js" />
-        <option value="$PROJECT_DIR$/js/cloud.js" />
-        <option value="$PROJECT_DIR$/css/home.css" />
-        <option value="$PROJECT_DIR$/css/portfolio.css" />
-        <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="837" />
-    <option name="height" value="775" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -133,30 +138,11 @@
               <item name="salem" type="b2602c69:ProjectViewProjectNode" />
               <item name="salem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="salem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salem" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salem" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,11 +156,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,20 +167,21 @@
       <option name="presentableId" value="Default" />
       <updated>1563575678283</updated>
       <workItem from="1563575681289" duration="44357000" />
-      <workItem from="1564057003182" duration="10907000" />
+      <workItem from="1564057003182" duration="11151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76886000" />
+    <option name="totallyTimeSpent" value="77130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.35044643" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.37480798" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.37480798" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -233,9 +215,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/Home" />
@@ -289,7 +268,7 @@
     <entry file="file://$PROJECT_DIR$/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="668" selection-start-line="667" selection-end-line="668" />
+          <caret line="706" selection-start-line="705" selection-start-column="1" selection-end-line="706" />
         </state>
       </provider>
     </entry>
@@ -336,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="336">
           <caret line="506" column="14" selection-start-line="506" selection-start-column="14" selection-end-line="506" selection-end-column="14" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
