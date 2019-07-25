@@ -1,0 +1,67 @@
+/*
+|*********************************|
+Setting up CSS
+|*********************************|
+ */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #E4E4E4;
+}
+
+/*
+|************************|
+**1) NAVBAR
+|************************|
+ */
+.navbar{
+    letter-spacing: 2px;
+    border-bottom: 1px dashed #004C8C;
+    transition-duration: 2s;
+}
+
+@media (min-width: 992px) {
+    .navbar{
+        padding: 8px 20px!important;
+        height: 54px!important;
+    }
+
+    .navbar-nav{
+        margin-left: 70%;
+    }
+
+    .nav-item{
+        margin-right: 20px ;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+/*----------------------------------------------*
+CHART
+*-----------------------------------------------*/
+.chart-darkBlue-bg{background-color: #004C8C;!important}
+.chart-blue-bg{background-color: #056BB3!important}
+.chart-skyBlue-bg{background-color: #2682C4!important}
+.chart-lightBlue-bg{background-color: #74BBE4!important}
+.chart-light-bg{background-color: #F1F2F6!important;}
+
+
+.chart-color-darkBlue{color:  #004C8C!important;}
+.chart-color-blue{color: #056BB3!important}
+.chart-color-skyBlue{color: #2682C4!important;}
+.chart-color-lightBlue{color: #74BBE4!important;}
+.chart-color-light{color: #F1F2F6!important;}
